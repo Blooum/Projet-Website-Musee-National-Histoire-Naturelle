@@ -54,7 +54,7 @@ body {
 }
 
 .bas-content {
-  display: none;
+	display: none;
 	position: absolute;
 	background-color: #f9f9f9;
 	min-width: 160px;
@@ -88,9 +88,6 @@ body {
   text-align: center;
   background: url(https://www.mnhn.fr/sites/mnhn.fr/files/styles/bandeau/public/thumbnails/image/panogalpal-05_1440_850_0.jpg?itok=fFioxxuf&c=96a4381f26a528bc22abcb5c25e39369);
 }
-.header img{
-	width:15%;
-}
 
 
 .card {					/*Boite*/
@@ -110,19 +107,6 @@ body {
   width: 50%;
   padding: 10px;
   height: 300px; 
-  background-image:linear-gradient(#404142,#282E34);
-  color:white;
-}
-
-.baspage .img1 {
-	width:65%;
-
-}
-.baspage .img2 {
-	width:15%;
-}
-.baspage .noir{
-	color:black;
 }
 
 .carrebas:after {	/* FIN bas de page */
@@ -147,9 +131,6 @@ body {
 
 .card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-.card img{
-	width:100%;	
 }
 
 .container {
@@ -177,63 +158,61 @@ body {
   padding: 0 8px;
 }
 
-.tarifs img {
+.tarifsimg {
   float: left;
-  height: 410px ;
-  width:327px;
 }
 
 .tarifsinfo {
   float: left;
   height: 410px;
-  width: 257px;
-  				/*Fin boite tarifs*/
+  width: 327px;
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/memphis-mini.png); /*Fin boite tarifs*/
 }
 
 
 #slider {      /*Slider*/
-  position: relative;
-  width: 80%;
-  overflow: hidden;
-  height: 550px;
-  padding: 80px;
-  margin: 10px;
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    height: 550px;
+    padding: 80px;
+    margin: 10px;
 }
 
 #slides {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  display: flex;
-  max-height: 100%;
-  margin-left:auto;
-  margin-right: auto;
+     position: absolute;
+    top: 0;
+    left: 50%;
+    display: flex;
+    max-height: 100%;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 #slides figure {
-  display: inline-block;
-  width: 100vw;
-  max-height: 100%;
-  margin: 0;
+    display: inline-block;
+    width: 100vw;
+    max-height: 100%;
+    margin: 0;
 }
 
 #slides figure img {
-  width: 100%;
-  position: relative;
+    width: 100%;
+    position: relative;
 	text-align: center;
 	top: 50%;
-  transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 #slides figure figcaption {
-  position: absolute;
-  bottom: 0;
-  padding: 2.5em 0;
-  text-align: left;
-  width: inherit;
-  background-color: black;
-  opacity: 75%;
-  color: white;
+   position: absolute;
+    bottom: 0;
+    padding: 2.5em 0;
+    text-align: left;
+    width: inherit;
+    background-color: black;
+    opacity: 75%;
+    color: white;
 }
 
 @keyframes slide {
@@ -250,9 +229,9 @@ body {
 
 #slides {				/*Fin slider*/
 
-  animation-name: slide;
-  animation-duration: 35s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
+    animation-name: slide;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
 }
